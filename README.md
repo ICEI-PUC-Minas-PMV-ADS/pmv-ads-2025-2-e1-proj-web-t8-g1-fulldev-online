@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 ## Integrantes
 
 * Lucas de Araujo Pedro
-* Nome completo do aluno 2
+* Lorenzzo Silva de Paula
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 5
