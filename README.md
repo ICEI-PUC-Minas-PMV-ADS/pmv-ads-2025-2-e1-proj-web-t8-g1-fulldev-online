@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Lorenzzo Silva de Paula
 * Nome completo do aluno 3
 * Nome completo do aluno 4
-* Nome completo do aluno 5
+* João Pedro Pereira
 * Luan Lázaro Oliveira Matos 
 
 ## Orientador
