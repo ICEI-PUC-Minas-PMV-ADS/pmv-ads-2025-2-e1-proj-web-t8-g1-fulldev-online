@@ -107,7 +107,73 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
+<table>
+  <thead>
+    <tr align="center">
+      <th>EU COMO... <code>QUEM</code></th>
+      <th>QUERO/PRECISO ... <code>O QUE</code></th>
+      <th>PARA ... <code>PORQUE</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Novato/Estudante</td>
+      <td>Criar uma conta na FullDev</td>
+      <td>Poder participar de discussões e acessar conteúdos sobre TI.</td>
+    </tr>
+    <tr>
+      <td>Novato/Estudante</td>
+      <td>Visualizar uma lista de cursos recomendados</td>
+      <td>Descobrir quais trilhas seguir para me profissionalizar.</td>
+    </tr>
+    <tr>
+      <td>Novato/Estudante</td>
+      <td>Publicar minha primeira dúvida ou pergunta no fórum</td>
+      <td>Receber orientação da comunidade e aprender com os mais experientes.</td>
+    </tr>
+    <tr>
+      <td>Desenvolvedor Júnior</td>
+      <td>Acessar página de eventos</td>
+      <td>Conhecer oportunidades de networking e atualização profissional.</td>
+    </tr>
+    <tr>
+      <td>Desenvolvedor Júnior</td>
+      <td>Responder perguntas de outros usuários</td>
+      <td>Ajudar colegas e consolidar meu próprio conhecimento.</td>
+    </tr>
+    <tr>
+      <td>Desenvolvedor Sênior</td>
+      <td>Cadastrar um artigo ou material didático</td>
+      <td>Compartilhar conhecimento e contribuir com o crescimento da comunidade.</td>
+    </tr>
+    <tr>
+      <td>Desenvolvedor Sênior</td>
+      <td>Visualizar quais tópicos estão mais discutidos</td>
+      <td>Identificar onde posso ajudar e propor soluções avançadas.</td>
+    </tr>
+    <tr>
+      <td>Visitante/Membro não cadastrado</td>
+      <td>Navegar nos tópicos da página inicial sem se cadastrar</td>
+      <td>Avaliar se vale a pena entrar para a comunidade.</td>
+    </tr>
+    <tr>
+      <td>Patrocinador/Empresa</td>
+      <td>Divulgar oportunidades de estágio ou patrocinar eventos</td>
+      <td>Atrair novos talentos e promover a marca junto à comunidade.</td>
+    </tr>
+    <tr>
+      <td>Moderador</td>
+      <td>Remover conteúdos inadequados ou ofensivos</td>
+      <td>Assegurar que o ambiente seja saudável e alinhado às regras da comunidade.</td>
+    </tr>
+    <tr>
+      <td>Moderador</td>
+      <td>Intermediar conflitos ou denúncias</td>
+      <td>Garantir um espaço seguro e justo para todos os participantes.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 > **Link Útil**:
 > - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
