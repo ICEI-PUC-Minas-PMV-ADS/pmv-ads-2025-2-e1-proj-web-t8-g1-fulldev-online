@@ -1,12 +1,5 @@
-# Título do Projeto
+# FullDev Online
 
-`Análise e Desenvolvimento de Sistemas`
-
-`DISCIPLINA`
-
-`SEMESTRE`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
@@ -16,10 +9,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Nome completo do aluno 4
 * João Pedro Pereira
 * Luan Lázaro Oliveira Matos 
-
-## Orientador
-
-* Luiz Alberto Ferreira Gomes 
 
 # Documentação
 
