@@ -49,6 +49,7 @@ To Do: atividades priorizadas para o Sprint atual.
 Doing: tarefas em andamento.
 
 Done: tarefas concluídas, testadas e validadas.
+<img width="1419" height="779" alt="image" src="https://github.com/user-attachments/assets/27fbcd76-2f4e-4aea-9d11-b4a81ac5eea1" />
 
 As tarefas serão categorizadas com etiquetas coloridas conforme a natureza da atividade:
 
