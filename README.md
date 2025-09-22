@@ -12,8 +12,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 * Lucas de Araujo Pedro
 * Lorenzzo Silva de Paula
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Luiz Fernando Martins
+* Jennifer Garro Correa 
 * João Pedro Pereira
 * Luan Lázaro Oliveira Matos 
 
