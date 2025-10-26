@@ -6,23 +6,23 @@
 
 `Eixo 1 - Turma 08 - 2025/2`
 
-A FullDev Online é a evolução da comunidade FullDev para uma plataforma social feita por e para desenvolvedores. 
+A FullDev Online é a evolução da comunidade FullDev para uma plataforma social feita por e para desenvolvedores.
 Seu primeiro passo será o Indicador de Cursos, um MVP que funciona como um espaço colaborativo onde devs avaliam e recomendam cursos, faculdades e plataformas de ensino.
 
-A proposta é criar uma base confiável e transparente, semelhante a um “ReclameAqui da educação em tecnologia”, ajudando iniciantes e profissionais a escolherem onde investir tempo e dinheiro. 
+A proposta é criar uma base confiável e transparente, semelhante a um “ReclameAqui da educação em tecnologia”, ajudando iniciantes e profissionais a escolherem onde investir tempo e dinheiro.
 
 ## Integrantes
 
 * Lucas de Araujo Pedro
 * Lorenzzo Silva de Paula
 * Luiz Fernando Martins
-* Jennifer Garro Correa 
+* Jennifer Garro Correa
 * João Pedro Pereira
-* Luan Lázaro Oliveira Matos 
+* Luan Lázaro Oliveira Matos
 
 ## Orientador
 
-* Luiz Alberto Ferreira Gomes 
+* Luiz Alberto Ferreira Gomes
 
 # Documentação
 
@@ -32,20 +32,9 @@ A proposta é criar uma base confiável e transparente, semelhante a um “Recla
 <li><a href="documentos/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="documentos/04-Projeto de Interface.md"> Projeto de Interface</a></li>
 <li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
-<li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="documentos/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="documentos/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
 </ol>
-
-# Hospedagem
-
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
 
 # Código-Fonte
 
 * <a href="codigo-fonte/README.md">Código Fonte</a>
 
-# Apresentação
-
-* <a href="apresentacao/README.md">Apresentação do Projeto</a>

@@ -229,7 +229,7 @@ body {
 .main-layout {
     display: flex;
     margin-top: 70px;
-    min-height: calc(100vh - 70px);
+    /* min-height: calc(100vh - 70px); */
 }
 
 /* Sidebar */
@@ -240,7 +240,10 @@ body {
     padding: 2rem 0;
     transition: var(--transition-normal);
     overflow-y: auto;
-    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: calc(100vh - 70px); */
 }
 
 .sidebar-content {
