@@ -1,59 +1,51 @@
-# FulldevAngular
+# FullDev Online
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+`Análise e Desenvolvimento de Sistemas`
 
-## Development server
+`Desenvolvimento de Aplicação Web Front-End`
 
-To start a local development server, run:
+`Eixo 1 - Turma 08 - 2025/2`
 
-```bash
-ng serve
-```
+A FullDev Online é a evolução da comunidade FullDev para uma plataforma social feita por e para desenvolvedores. 
+Seu primeiro passo será o Indicador de Cursos, um MVP que funciona como um espaço colaborativo onde devs avaliam e recomendam cursos, faculdades e plataformas de ensino.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A proposta é criar uma base confiável e transparente, semelhante a um “ReclameAqui da educação em tecnologia”, ajudando iniciantes e profissionais a escolherem onde investir tempo e dinheiro. 
 
-## Code scaffolding
+## Integrantes
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* Lucas de Araujo Pedro
+* Lorenzzo Silva de Paula
+* Luiz Fernando Martins
+* Jennifer Garro Correa 
+* João Pedro Pereira
+* Luan Lázaro Oliveira Matos 
 
-```bash
-ng generate component component-name
-```
+## Orientador
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* Luiz Alberto Ferreira Gomes 
 
-```bash
-ng generate --help
-```
+# Documentação
 
-## Building
+<ol>
+<li><a href="documentos/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
+<li><a href="documentos/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
+<li><a href="documentos/03-Metodologia.md"> Metodologia</a></li>
+<li><a href="documentos/04-Projeto de Interface.md"> Projeto de Interface</a></li>
+<li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
+<li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
+<li><a href="documentos/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
+<li><a href="documentos/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
+<li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
+</ol>
 
-To build the project run:
+# Hospedagem
 
-```bash
-ng build
-```
+* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+# Código-Fonte
 
-## Running unit tests
+* <a href="codigo-fonte/README.md">Código Fonte</a>
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+# Apresentação
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* <a href="apresentacao/README.md">Apresentação do Projeto</a>
