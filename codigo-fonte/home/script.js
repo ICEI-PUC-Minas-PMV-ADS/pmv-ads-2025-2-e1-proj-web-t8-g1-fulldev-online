@@ -258,6 +258,8 @@ function renderPosts() {
         postCard.className = 'post-card';
         postCard.style.animationDelay = `${index * 0.1}s`;
         postCard.innerHTML = `
+        <a href="../publicacao/publicacao.html">
+
             <div class="post-header">
                 <div class="post-author-avatar">${post.avatar}</div>
                 <div class="post-author-info">
@@ -297,6 +299,7 @@ function renderPosts() {
                     <span>${post.hypes} Hype${post.hypes !== 1 ? 's' : ''}</span>
                 </div>
             </div>
+        </a>
         `;
         
         postsContainer.appendChild(postCard);
@@ -347,7 +350,7 @@ function initializeSidebar() {
     });
     
     // Navegação da sidebar
-    const navLinks = document.querySelectorAll('.nav-link');
+/*     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
@@ -365,7 +368,7 @@ function initializeSidebar() {
                 sidebarToggle.style.transform = 'rotate(0deg)';
             }
         });
-    });
+    }); */
 }
 
 // Busca
