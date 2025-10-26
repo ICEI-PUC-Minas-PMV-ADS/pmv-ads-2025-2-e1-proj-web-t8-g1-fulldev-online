@@ -34,6 +34,12 @@ A proposta é criar uma base confiável e transparente, semelhante a um “Recla
 <li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
 </ol>
 
+# Hospedagem
+
+A aplicação em HTML/CSS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. 
+
+<li><a href="codigo-fonte/login/login.html"> Clique aqui para acessá-lo.</a></li>
+
 # Código-Fonte
 
 * <a href="codigo-fonte/README.md">Código Fonte</a>
