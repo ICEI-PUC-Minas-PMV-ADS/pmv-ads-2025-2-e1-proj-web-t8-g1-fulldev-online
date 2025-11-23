@@ -1,18 +1,10 @@
-# Plano de Testes de Software
+<img width="1112" height="656" alt="image" src="https://github.com/user-attachments/assets/d0a179ea-ebce-4eec-a010-30d75f3c01fe" /># Plano de Testes de Software
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+| Caso de teste | Requisitos associados | Objetivo do teste | Passos | Critérios de êxito | Responsável |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **CT-01: Adicionar Novo Curso no Catálogo** | RF-008: O sistema deve permitir ao usuário cadastrar novos itens (cursos) no catálogo. | Verificar se a funcionalidade de cadastro de novos cursos está operando corretamente, garantindo que o item seja adicionado ao catálogo com todos os dados informados. | 1. Acessar a página de cursos. <br> 2. Clicar em "Adicionar Curso". <br> 3. Preencher todos os campos do formulário modal. <br> 4. Clicar em "Criar Curso". | O modal deve ser fechado após a submissão. <br> Uma mensagem de sucesso ("Curso criado com sucesso!") deve ser exibida. <br> O novo card do curso deve aparecer na lista com as informações preenchidas. | Lorenzo |
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
+https://github.com/user-attachments/assets/cda87494-db84-4c1b-a2fa-d8fedeb85a6c
+
