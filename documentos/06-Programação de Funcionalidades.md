@@ -1,44 +1,36 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+Tela de Adição de Curso (RF-008)
+Responsável: Lorenzo
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+O acesso à tela de adição de curso (modal) é feito através da opção "Adicionar Curso" no canto superior direito da tela de listagem de cursos.
 
-### Título da funcionalidade
+Exemplo da tela de Cadastro/Edição (Modal):
 
-[Adicione imagem da funcionalidade/tela]
+<img width="1900" height="995" alt="curso full dev" src="https://github.com/user-attachments/assets/87ea4cdd-6baa-46b7-8f07-cea22aea38c2" />
 
+Requisito atendido
 
-#### Requisito atendido
+RF-008: O sistema deve permitir ao usuário cadastrado (administrador) adicionar novos itens (cursos) ao catálogo.
 
-[RF-X: adicione a descrição do requisito atendido]
+Artefatos da funcionalidade
 
+courses.html (Página principal onde o botão está)
 
-#### Artefatos da funcionalidade
+add-course-modal.js (Lógica de exibição e submissão do modal)
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+api-courses.js (Função que envia os dados do novo curso para o backend)
 
+styles.css (Estilização do modal e do formulário)
 
-#### Estrutura de Dados
+Instruções de acesso
 
-[Caso exista estrutura de dados, adicione aqui]
+Abra o navegador e informe a URL da aplicação.
 
+Faça o login com uma conta de administrador (se necessário).
 
-#### Instruções de acesso
+Na página inicial de cursos (Catálogo), clique no botão "+ Adicionar Curso" no topo da tela (próximo à barra de pesquisa).
 
-[Adicione as orientações de acesso à funcionalidade]
+O modal de "Novo Curso" será exibido, permitindo o preenchimento dos dados.
 
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
