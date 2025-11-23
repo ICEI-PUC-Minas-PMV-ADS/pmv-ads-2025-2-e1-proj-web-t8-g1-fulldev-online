@@ -1,4 +1,4 @@
-<img width="1112" height="656" alt="image" src="https://github.com/user-attachments/assets/d0a179ea-ebce-4eec-a010-30d75f3c01fe" /># Plano de Testes de Software
+# Plano de Testes de Software
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 | Caso de teste | Requisitos associados | Objetivo do teste | Passos | Critérios de êxito | Responsável |
