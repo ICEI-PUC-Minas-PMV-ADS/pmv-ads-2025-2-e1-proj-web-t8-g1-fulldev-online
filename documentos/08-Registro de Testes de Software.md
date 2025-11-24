@@ -36,6 +36,6 @@ A navegação ocorreu sem erros e todos os elementos previstos no requisito esta
 ![evidencia-teste](/mnt/data/381edb5e-4ea3-48c4-80d6-024dec026aa0.png)
 
 ### **Responsável pela Execução do Caso de Teste**
-_[insira o responsável]_  
+João Pedro pereira 
 
 ---
