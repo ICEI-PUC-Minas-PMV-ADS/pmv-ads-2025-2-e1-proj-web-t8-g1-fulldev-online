@@ -101,3 +101,62 @@ Curso aparece no catálogo ✔️
 
 Com isso, demonstra claramente que a funcionalidade RF-008 está implementada e funcionando.
 
+
+
+# 📌 Tela: Painel do Usuário (RF-033)
+
+**Responsável:** João Pedro Pereira
+**Requisito Atendido:** **RF-033 — Painel simples do usuário**
+
+---
+
+## ✅ Descrição da Funcionalidade
+
+A tela exibe o **Painel do Usuário**, contendo:
+
+- Avatar, nome e username do usuário  
+- Menu lateral de navegação  
+- Área “Minhas Indicações”, exibindo publicações feitas pelo próprio usuário  
+- Feed pessoal com cards das recomendações/indicações criadas pelo usuário  
+
+Essa interface representa claramente o painel básico exigido pelo RF-033.
+
+---
+
+## 🎯 Requisito Atendido
+
+### **RF-033 — Painel simples do usuário**
+
+> O sistema deve disponibilizar um painel simples onde o usuário possa visualizar seu perfil, recomendações, conteúdos salvos e histórico de interações.
+
+A tela apresentada cumpre a parte essencial desse requisito:  
+**visualização de perfil + histórico de publicações/indicações do usuário**.
+
+---
+
+## 🗂️ Artefatos da Funcionalidade
+
+| Arquivo | Descrição |
+|--------|-----------|
+| `profile.html` | Estrutura visual da página de perfil/painel |
+| `user-feed.js` | Carregamento e gerenciamento das indicações/publicações |
+| `api-user.js` | Endpoints de dados de usuário e feed |
+| `styles-profile.css` | Estilização do painel, avatar e cards |
+
+---
+
+## 📥 Instruções de Acesso
+
+1. Acesse a aplicação pelo navegador.  
+2. Realize login na plataforma.  
+3. Clique no ícone do usuário no canto superior direito ou na opção **Minha Conta**.  
+4. O Painel do Usuário será exibido com **perfil + indicações**.
+
+---
+
+## 📎 Evidência da Tela
+
+<img width="1912" height="931" alt="image" src="https://github.com/user-attachments/assets/fb5b3b80-d9cc-46c6-9fbe-3ab759db9bfb" />
+
+
+
