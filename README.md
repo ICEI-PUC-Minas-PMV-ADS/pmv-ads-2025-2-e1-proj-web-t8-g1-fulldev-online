@@ -1,25 +1,28 @@
-# Título do Projeto
+# FullDev Online
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Eixo 1 - Turma 08 - 2025/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+A FullDev Online é a evolução da comunidade FullDev para uma plataforma social feita por e para desenvolvedores.
+Seu primeiro passo será o Indicador de Cursos, um MVP que funciona como um espaço colaborativo onde devs avaliam e recomendam cursos, faculdades e plataformas de ensino.
+
+A proposta é criar uma base confiável e transparente, semelhante a um “ReclameAqui da educação em tecnologia”, ajudando iniciantes e profissionais a escolherem onde investir tempo e dinheiro.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Lucas de Araujo Pedro
+* Lorenzzo Silva de Paula
+* Luiz Fernando Martins
+* Jennifer Garro Correa
+* João Pedro Pereira
+* Luan Lázaro Oliveira Matos
 
 ## Orientador
 
-* Nome completo do professor
+* Luiz Alberto Ferreira Gomes
 
 # Documentação
 
@@ -32,17 +35,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 <li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="documentos/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="documentos/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
 </ol>
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+A aplicação em HTML/CSS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. 
+
+<li><a href="codigo-fonte/login/login.html"> Clique aqui para acessá-lo.</a></li>
 
 # Código-Fonte
 
 * <a href="codigo-fonte/README.md">Código Fonte</a>
-
-# Apresentação
-
-* <a href="apresentacao/README.md">Apresentação do Projeto</a>
