@@ -41,7 +41,8 @@ A proposta é criar uma base confiável e transparente, semelhante a um “Recla
 
 A aplicação em HTML/CSS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. 
 
-<li><a href="Puc.fulldev.com.br"> Clique aqui para acessá-lo.</a></li>
+<li><a href="https://puc.fulldev.com.br" target="_blank">Clique aqui para acessá-lo.</a></li>
+
 
 # Código-Fonte
 
