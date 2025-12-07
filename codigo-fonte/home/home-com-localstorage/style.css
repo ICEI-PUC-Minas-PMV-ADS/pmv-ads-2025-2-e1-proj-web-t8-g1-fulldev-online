@@ -1061,6 +1061,461 @@ body {
     background: var(--accent-orange);
 }
 
+/* ==========================================
+   RF-37: SISTEMA DE TOAST NOTIFICATIONS E VALIDAÇÕES
+   ========================================== */
+
+/* Toast Container */
+.toast-container {
+    position: fixed;
+    top: 90px;
+    right: 2rem;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    pointer-events: none;
+}
+
+/* Toast */
+.toast {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    pointer-events: all;
+    animation: slideInRight 0.3s ease-out;
+    transition: var(--transition-fast);
+}
+
+.toast.removing {
+    animation: slideOutRight 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Toast Tipos */
+.toast.success {
+    border-left: 4px solid #10B981;
+}
+
+.toast.error {
+    border-left: 4px solid #EF4444;
+}
+
+.toast.warning {
+    border-left: 4px solid #F59E0B;
+}
+
+.toast.info {
+    border-left: 4px solid #3B82F6;
+}
+
+.toast-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.toast.success .toast-icon {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10B981;
+}
+
+.toast.error .toast-icon {
+    background: rgba(239, 68, 68, 0.2);
+    color: #EF4444;
+}
+
+.toast.warning .toast-icon {
+    background: rgba(245, 158, 11, 0.2);
+    color: #F59E0B;
+}
+
+.toast.info .toast-icon {
+    background: rgba(59, 130, 246, 0.2);
+    color: #3B82F6;
+}
+
+.toast-content {
+    flex: 1;
+}
+
+.toast-title {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.toast-message {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.toast-close {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: var(--transition-fast);
+    flex-shrink: 0;
+}
+
+.toast-close:hover {
+    background: var(--hover-bg);
+    color: var(--text-primary);
+}
+
+/* Validação de Formulários */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    transition: var(--transition-fast);
+    font-family: inherit;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+    outline: none;
+    border-color: var(--accent-orange);
+    box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.1);
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+    border-color: #EF4444;
+}
+
+.form-input.error:focus,
+.form-textarea.error:focus,
+.form-select.error:focus {
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.form-input.success,
+.form-textarea.success,
+.form-select.success {
+    border-color: #10B981;
+}
+
+.form-error-message {
+    display: none;
+    color: #EF4444;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-input.error ~ .form-error-message,
+.form-textarea.error ~ .form-error-message,
+.form-select.error ~ .form-error-message {
+    display: flex;
+}
+
+.form-success-message {
+    display: none;
+    color: #10B981;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-input.success ~ .form-success-message,
+.form-textarea.success ~ .form-success-message,
+.form-select.success ~ .form-success-message {
+    display: flex;
+}
+
+/* ==========================================
+   RF-12/32: SISTEMA DE COMPARTILHAMENTO
+   ========================================== */
+
+/* Modal de Compartilhamento */
+.share-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.share-modal {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: var(--shadow-lg);
+    animation: scaleIn 0.3s ease-out;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.share-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.share-modal-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.share-modal-close {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: var(--transition-fast);
+}
+
+.share-modal-close:hover {
+    background: var(--hover-bg);
+    color: var(--text-primary);
+}
+
+.share-modal-content {
+    margin-bottom: 1.5rem;
+}
+
+.share-link-container {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.share-link-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-family: 'Courier New', monospace;
+}
+
+.share-copy-btn {
+    padding: 0.75rem 1.5rem;
+    background: var(--gradient-orange);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.share-copy-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.share-copy-btn.copied {
+    background: #10B981;
+}
+
+.share-social-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.share-social-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.75rem;
+}
+
+.share-social-btn {
+    padding: 0.75rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: var(--transition-fast);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.share-social-btn:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-orange);
+    background: var(--hover-bg);
+}
+
+.share-social-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.share-social-btn.whatsapp:hover {
+    background: #25D366;
+    border-color: #25D366;
+    color: white;
+}
+
+.share-social-btn.twitter:hover {
+    background: #1DA1F2;
+    border-color: #1DA1F2;
+    color: white;
+}
+
+.share-social-btn.linkedin:hover {
+    background: #0A66C2;
+    border-color: #0A66C2;
+    color: white;
+}
+
+.share-social-btn.facebook:hover {
+    background: #1877F2;
+    border-color: #1877F2;
+    color: white;
+}
+
+/* Botão Compartilhar nos Cards */
+.share-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.share-btn:hover {
+    border-color: var(--accent-orange);
+    color: var(--accent-orange);
+    transform: translateY(-1px);
+}
+
+.share-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .toast-container {
+        right: 1rem;
+        left: 1rem;
+    }
+    
+    .toast {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .share-modal {
+        padding: 1.5rem;
+        width: 95%;
+    }
+    
+    .share-social-buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* Seleção de Texto */
 ::selection {
     background: var(--accent-orange);

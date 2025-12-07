@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - FullDev Online</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+        .institutional-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: var(--text-primary);
+        }
+
+        .institutional-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .institutional-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: var(--gradient-orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .institutional-header p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .content-section {
+            margin-bottom: 3rem;
+        }
+
+        .content-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--accent-orange);
+        }
+
+        .content-section h3 {
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.75rem;
+            color: var(--accent-purple);
+        }
+
+        .content-section p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .content-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+
+        .content-section li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .content-section li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-orange);
+            font-weight: bold;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--gradient-orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .team-member {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: var(--transition-fast);
+        }
+
+        .team-member:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-orange);
+        }
+
+        .team-avatar {
+            width: 100px;
+            height: 100px;
+            background: var(--gradient-orange);
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .team-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .team-role {
+            color: var(--accent-orange);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .team-bio {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .institutional-content {
+                padding: 1rem;
+            }
+
+            .institutional-header h1 {
+                font-size: 2rem;
+            }
+
+            .content-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="institutional-content">
+        <div class="institutional-header">
+            <h1>Sobre o FullDev Online</h1>
+            <p>Transformando desenvolvedores através da educação de qualidade</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Nossa História</h2>
+            <p>
+                O FullDev Online nasceu em 2024 com uma missão clara: democratizar o acesso à educação em tecnologia de qualidade. 
+                Percebemos que muitos desenvolvedores em início de carreira enfrentam dificuldades para encontrar cursos confiáveis, 
+                relevantes e com preços acessíveis no mercado brasileiro.
+            </p>
+            <p>
+                Nossa plataforma foi desenvolvida para ser mais do que um marketplace de cursos. Somos uma comunidade vibrante 
+                onde estudantes compartilham experiências, avaliam cursos de forma transparente e ajudam uns aos outros a 
+                crescer profissionalmente.
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>Nossa Missão</h2>
+            <p>
+                Capacitar desenvolvedores de todos os níveis com acesso a cursos de qualidade, avaliações transparentes e 
+                uma comunidade engajada, acelerando suas jornadas de aprendizado e crescimento profissional.
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>Nossos Valores</h2>
+            <ul>
+                <li><strong>Transparência:</strong> Avaliações honestas e feedback real de estudantes</li>
+                <li><strong>Qualidade:</strong> Curadoria rigorosa de conteúdos e parcerias com as melhores plataformas</li>
+                <li><strong>Comunidade:</strong> Ambiente colaborativo e de apoio mútuo entre desenvolvedores</li>
+                <li><strong>Acessibilidade:</strong> Democratização do conhecimento com preços justos</li>
+                <li><strong>Inovação:</strong> Uso de tecnologia para melhorar a experiência de aprendizado</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Números que Nos Orgulham</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Estudantes Ativos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Cursos Disponíveis</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Parceiros</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Satisfação</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Nossa Equipe</h2>
+            <p>
+                Por trás do FullDev Online está uma equipe apaixonada por educação e tecnologia, 
+                dedicada a criar a melhor experiência possível para nossa comunidade.
+            </p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-avatar">RC</div>
+                    <div class="team-name">Rafael Costa</div>
+                    <div class="team-role">CEO & Co-fundador</div>
+                    <div class="team-bio">
+                        Desenvolvedor Full Stack com 10+ anos de experiência. Apaixonado por educação e tecnologia.
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">MS</div>
+                    <div class="team-name">Marina Silva</div>
+                    <div class="team-role">CTO & Co-fundadora</div>
+                    <div class="team-bio">
+                        Especialista em arquitetura de software e cloud computing. Ex-engenheira de empresas de tecnologia.
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">LS</div>
+                    <div class="team-name">Lucas Santos</div>
+                    <div class="team-role">Head de Conteúdo</div>
+                    <div class="team-bio">
+                        Curador de cursos e especialista em metodologias de ensino em tecnologia.
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">PA</div>
+                    <div class="team-name">Paula Almeida</div>
+                    <div class="team-role">Community Manager</div>
+                    <div class="team-bio">
+                        Responsável por construir e engajar nossa comunidade de desenvolvedores.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Como Funcionamos</h2>
+            <h3>1. Curadoria de Cursos</h3>
+            <p>
+                Nossa equipe analisa cuidadosamente cada curso antes de disponibilizá-lo na plataforma, 
+                avaliando qualidade do conteúdo, didática dos instrutores e relevância no mercado.
+            </p>
+
+            <h3>2. Avaliações Transparentes</h3>
+            <p>
+                Incentivamos avaliações honestas de nossa comunidade. Cada feedback é verificado para 
+                garantir autenticidade e ajudar outros estudantes nas escolhas.
+            </p>
+
+            <h3>3. Preços Competitivos</h3>
+            <p>
+                Negociamos diretamente com parceiros para oferecer os melhores preços e descontos exclusivos 
+                para nossa comunidade.
+            </p>
+
+            <h3>4. Suporte Contínuo</h3>
+            <p>
+                Nossa equipe e comunidade estão sempre disponíveis para tirar dúvidas, compartilhar conhecimento 
+                e apoiar sua jornada de aprendizado.
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>Entre em Contato</h2>
+            <p>
+                Tem dúvidas, sugestões ou quer fazer parte da nossa equipe? Adoraríamos ouvir você!
+            </p>
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding-left: 0; margin-bottom: 0.5rem;">
+                    <strong>Email:</strong> <a href="mailto:contato@fulldev.com.br" style="color: var(--accent-orange);">contato@fulldev.com.br</a>
+                </li>
+                <li style="padding-left: 0; margin-bottom: 0.5rem;">
+                    <strong>Telefone:</strong> <span style="color: var(--text-secondary);">(11) 99999-9999</span>
+                </li>
+                <li style="padding-left: 0;">
+                    <strong>Endereço:</strong> <span style="color: var(--text-secondary);">São Paulo, SP - Brasil</span>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+            <a href="../home/index.html" style="
+                display: inline-block;
+                padding: 1rem 2rem;
+                background: var(--gradient-orange);
+                color: white;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: 600;
+                transition: var(--transition-fast);
+            " onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                Voltar para Home
+            </a>
+        </div>
+    </div>
+
+    <script src="sobre.js"></script>
+</body>
+</html>
