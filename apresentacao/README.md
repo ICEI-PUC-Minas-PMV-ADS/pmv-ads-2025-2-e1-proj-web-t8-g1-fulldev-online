@@ -11,7 +11,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ### 📊 Apresentação FullDev Online
 
-**[Acesse a Apresentação em PDF](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g1-fulldev-online/blob/main/full%20dev%20(2).pdf)**
+**[Acesse a Apresentação em PDF](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g1-fulldev-online/blob/main/full%20dev%20(3).pdf)**
 
 A apresentação completa do projeto FullDev Online está disponível no arquivo PDF incluído nesta pasta. O documento contempla:
 
@@ -42,15 +42,6 @@ A apresentação completa do projeto FullDev Online está disponível no arquivo
    - **Progresso**: 20/39 requisitos implementados (51%)
 
 4. **Conclusão**
-   - **Pontos Positivos**:
-     - Design moderno e profissional
-     - Código modular e reutilizável
-     - Boa experiência do usuário (UX)
-     - Conformidade com LGPD
-   - **Desafios Enfrentados**:
-     - Validação complexa de CPF
-     - Sincronização de dados via LocalStorage
-     - Responsividade em múltiplos dispositivos
    - **Aprendizados**:
      - Trabalho em equipe com Git Flow
      - Padrões de código e boas práticas
