@@ -98,7 +98,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar o processo completo de cadastro em 3 etapas com validação de CPF. |
 | Resultado Obtido | **Sucesso.** Todas as 3 etapas funcionaram corretamente. Validação de CPF matemática aprovada. Modal de sucesso exibido e dados salvos no LocalStorage. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Luan** |
 
 ---
@@ -109,7 +109,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar se o sistema rejeita CPFs inválidos ou duplicados. |
 | Resultado Obtido | **Sucesso.** Sistema rejeitou CPF inválido (111.111.111-11) e exibiu mensagem de erro em vermelho. Impossível avançar para próxima etapa. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Luan** |
 
 ---
@@ -120,7 +120,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar abertura do modal de compartilhamento e envio via WhatsApp. |
 | Resultado Obtido | **Sucesso.** Modal abriu corretamente, link gerado com sucesso. WhatsApp Web abriu com mensagem pré-formatada contendo título do curso e URL. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lorenzo** |
 
 ---
@@ -131,7 +131,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar se o botão "Copiar Link" funciona corretamente. |
 | Resultado Obtido | **Sucesso.** Link copiado para área de transferência. Toast "Link copiado!" exibido com animação. Link funcional ao colar no navegador. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lorenzo** |
 
 ---
@@ -142,7 +142,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar exibição e comportamento do toast de sucesso. |
 | Resultado Obtido | **Sucesso.** Toast verde exibido no canto superior direito, ícone de check, animação de entrada suave, auto-close em 3 segundos funcionou perfeitamente. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência |
 | Responsável | **Lorenzo** |
 
 ---
@@ -153,7 +153,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar exibição de toast de erro em situações de falha. |
 | Resultado Obtido | **Sucesso.** Toast vermelho exibido com ícone de X. Mensagem "CPF inválido" clara e objetiva. Animação e posicionamento corretos. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Luan** |
 
 ---
@@ -164,7 +164,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar carregamento e exibição da página de eventos. |
 | Resultado Obtido | **Sucesso.** Página carregou sem erros. Grid de cards responsivo exibido corretamente com informações de data, local, formato e vagas. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lucas PEdro** |
 
 ---
@@ -175,7 +175,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar funcionamento dos filtros de eventos. |
 | Resultado Obtido | **Sucesso.** Filtros "Todos", "Online", "Presencial" e "Híbrido" funcionaram perfeitamente. Lista atualiza dinamicamente sem recarregar página. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lorenzo** |
 
 ---
@@ -186,7 +186,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar carregamento e conteúdo da página institucional. |
 | Resultado Obtido | **Sucesso.** Página carregou completamente. Contador animado funcionou (incremento de 0 até valor final). Grid de equipe exibido com 6 membros e links sociais. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Joao** |
 
 ---
@@ -197,7 +197,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar funcionalidade do sumário interativo. |
 | Resultado Obtido | **Sucesso.** Scroll suave funcionou em todos os itens do sumário. Navegação precisa para cada seção (11 seções testadas). Sem quebras visuais. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência |
 | Responsável | **Luan** |
 
 ---
@@ -208,7 +208,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar funcionalidade do botão de impressão. |
 | Resultado Obtido | **Sucesso.** Botão "Imprimir" abriu diálogo de impressão do navegador. Documento formatado corretamente para impressão (sem elementos desnecessários). |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Joao** |
 
 ---
@@ -219,7 +219,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar abertura e funcionamento do modal de cookies. |
 | Resultado Obtido | **Sucesso.** Modal abriu corretamente. Checkboxes de preferências funcionais. Botão "Salvar" persistiu configurações no LocalStorage. Toast de confirmação exibido. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lorenzo** |
 
 ---
@@ -230,7 +230,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar preenchimento e envio do formulário de portabilidade. |
 | Resultado Obtido | **Sucesso.** Formulário validou campos obrigatórios (e-mail). Validação de formato de e-mail funcionou. Mensagem de confirmação exibida após envio. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lucas Pedro** |
 
 ---
@@ -241,7 +241,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Validar fluxo de exclusão de conta. |
 | Resultado Obtido | **Sucesso.** Formulário exibiu campo de motivo. Modal de confirmação dupla implementado ("Tem certeza?"). Toast de sucesso após confirmação. Estrutura preparada para exclusão futura no backend. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Joao** |
 
 ---
@@ -252,7 +252,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar layout responsivo da tela de cadastro em dispositivos móveis. |
 | Resultado Obtido | **Sucesso.** Testado em resolução 375px (iPhone SE). Layout adaptou perfeitamente. Campos acessíveis, botões clicáveis, etapas navegáveis. Sem quebras visuais. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Luan** |
 
 ---
@@ -263,7 +263,7 @@ Cada registro inclui:
 |------|-----------|
 | Objetivo | Verificar comportamento com múltiplas notificações simultâneas. |
 | Resultado Obtido | **Sucesso.** Geradas 3 notificações simultâneas. Empilhamento vertical funcionou sem sobreposição. Cada toast fechou independentemente após seu timer. Sem travamentos ou bugs visuais. |
-| Evidência (vídeo) | [Ver vídeo] |
+| Evidência  |
 | Responsável | **Lorenzo** |
 
 # 2. Considerações Finais
