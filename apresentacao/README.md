@@ -11,7 +11,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ### 📊 Apresentação FullDev Online
 
-**[Acesse a Apresentação em PDF](./full%20dev%20(2).pdf)**
+**[Acesse a Apresentação em PDF](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g1-fulldev-online/blob/main/full%20dev%20(2).pdf)**
 
 A apresentação completa do projeto FullDev Online está disponível no arquivo PDF incluído nesta pasta. O documento contempla:
 
