@@ -1,13 +1,6 @@
 # Apresentação do Projeto
 
-## Conjunto de Slides
 
-A apresentação do projeto consiste na geração de um conjunto de slides em um arquivo no formato ppt, pptx ou pdf, contemplando os seguintes itens:
-
-> - Contexto (Problema, Público-alvo)
-> - Requisitos
-> - Solução Implementada (funcionalidades de software)
-> - Conclusão da elaboração do projeto (pontos positivos, desafios, aprendizado).
 
 ### 📊 Apresentação FullDev Online
 
@@ -52,7 +45,7 @@ A apresentação completa do projeto FullDev Online está disponível no arquivo
 
 ---
  ## Video
- **URL do video**: [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g1-fulldev-online/blob/main/documentos/video/gravacao-projeto.mp4)
+ **URL do video**: [VIDEO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g1-fulldev-online/blob/main/documentos/video/gravacao-projeto.mp4)
 ---
 
 ## Hospedagem
