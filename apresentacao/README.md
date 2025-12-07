@@ -51,7 +51,8 @@ A apresentação completa do projeto FullDev Online está disponível no arquivo
 
 
 ---
-
+ ## Video
+ **URL do video**: [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g1-fulldev-online/blob/main/documentos/video/gravacao-projeto.mp4)
 ---
 
 ## Hospedagem
